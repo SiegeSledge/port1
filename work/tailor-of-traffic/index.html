@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Tailor of Traffic | Tonghe Zhang</title><meta name="description" content="A satirical fashion-commerce game: the weirder the garment, the better it sells, until the buyer's photo and the returns expose the illusion."><meta name="color-scheme" content="light dark"><meta name="robots" content="noindex, nofollow"><link rel="icon" type="image/svg+xml" href="/port1/favicon.svg"><link rel="canonical" href="https://siegesledge.github.io/port1/work/tailor-of-traffic/"><link rel="alternate" hreflang="en" href="https://siegesledge.github.io/port1/work/tailor-of-traffic/"><link rel="alternate" hreflang="zh-CN" href="https://siegesledge.github.io/port1/zh/work/tailor-of-traffic/"><link rel="preload" href="/port1/fonts/hanken-grotesk/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:site_name" content="Tonghe Zhang"><meta property="og:title" content="Tailor of Traffic | Tonghe Zhang"><meta property="og:description" content="A satirical fashion-commerce game: the weirder the garment, the better it sells, until the buyer's photo and the returns expose the illusion."><meta property="og:url" content="https://siegesledge.github.io/port1/work/tailor-of-traffic/"><meta property="og:image" content="https://siegesledge.github.io/port1/_astro/tailor-seller-vs-buyer.C-vvZalF.png"><meta property="og:image:alt" content="Launch screen showing the polished seller photo of a garment beside a flat, awkward buyer photo."><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","name":"Tailor of Traffic","description":"A satirical fashion-commerce game: the weirder the garment, the better it sells, until the buyer's photo and the returns expose the illusion.","image":"https://siegesledge.github.io/port1/_astro/tailor-seller-vs-buyer.C-vvZalF.png","url":"https://siegesledge.github.io/port1/work/tailor-of-traffic/","author":{"@type":"Person","@id":"https://siegesledge.github.io/port1/#person","name":"Tonghe Zhang","jobTitle":"UX · Product Management · Gameplay Design","email":"zth021207@gmail.com","url":"https://siegesledge.github.io/port1/","sameAs":["https://czhang10.itch.io/theeighthcrossroad","https://medium.com/@zhangtonghe021207"]},"inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://siegesledge.github.io/port1/"},{"@type":"ListItem","position":2,"name":"Work","item":"https://siegesledge.github.io/port1/work/"},{"@type":"ListItem","position":3,"name":"Tailor of Traffic","item":"https://siegesledge.github.io/port1/work/tailor-of-traffic/"}]}]}</script><script>
+      (() => {
+        const storageKey = 'port1-theme';
+        const root = document.documentElement;
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+        let stored = null;
+
+        try {
+          stored = localStorage.getItem(storageKey);
+        } catch {}
+
+        const apply = (isDark) => {
+          root.classList.toggle('dark', isDark);
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.setAttribute('aria-pressed', String(isDark));
+          });
+        };
+
+        apply(stored ? stored === 'dark' : systemDark.matches);
+
+        systemDark.addEventListener('change', (event) => {
+          if (!stored) apply(event.matches);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+          apply(root.classList.contains('dark'));
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.addEventListener('click', () => {
+              const isDark = !root.classList.contains('dark');
+              stored = isDark ? 'dark' : 'light';
+              try {
+                localStorage.setItem(storageKey, stored);
+              } catch {}
+              apply(isDark);
+            });
+          });
+        });
+      })();
+    </script><noscript><style>
+        [data-needs-js] {
+          display: none !important;
+        }
+      </style></noscript><link rel="stylesheet" href="/port1/_astro/BaseLayout.DsPDLBHR.css"><style>.next-card[data-astro-cid-fe5pqsxl]:has(a:focus-visible){outline:2px solid var(--ink);outline-offset:6px}@media (prefers-reduced-motion:no-preference){.next-shot[data-astro-cid-fe5pqsxl]{transform-origin:0 0;transition:scale .7s var(--ease-out-expo)}}@media (hover:hover) and (prefers-reduced-motion:no-preference){.next-card[data-astro-cid-fe5pqsxl]:hover .next-shot[data-astro-cid-fe5pqsxl]{scale:1.04}.next-card[data-astro-cid-fe5pqsxl]:hover .icon-nudge[data-astro-cid-fe5pqsxl]{transform:translate(3px)}}
+@layer astro.images{:where([data-astro-image]){height:auto}:where([data-astro-image=full-width]){width:100%}:where([data-astro-image=constrained]){max-width:100%}[data-astro-image-fit=fill]{object-fit:fill}[data-astro-image-fit=contain]{object-fit:contain}[data-astro-image-fit=cover]{object-fit:cover}[data-astro-image-fit=scale-down]{object-fit:scale-down}[data-astro-image-pos=top]{object-position:top}[data-astro-image-pos=bottom]{object-position:bottom}[data-astro-image-pos=left]{object-position:left}[data-astro-image-pos=right]{object-position:right}[data-astro-image-pos=center]{object-position:center}[data-astro-image-pos=top-left]{object-position:top left}[data-astro-image-pos=top-right]{object-position:top right}[data-astro-image-pos=top-center]{object-position:top center}[data-astro-image-pos=bottom-left]{object-position:bottom left}[data-astro-image-pos=bottom-right]{object-position:bottom right}[data-astro-image-pos=bottom-center]{object-position:bottom center}[data-astro-image-pos=left-top]{object-position:left top}[data-astro-image-pos=left-bottom]{object-position:left bottom}[data-astro-image-pos=left-center]{object-position:left center}[data-astro-image-pos=right-top]{object-position:right top}[data-astro-image-pos=right-bottom]{object-position:right bottom}[data-astro-image-pos=right-center]{object-position:right center}[data-astro-image-pos=center-top]{object-position:center top}[data-astro-image-pos=center-bottom]{object-position:center bottom}[data-astro-image-pos=center-left]{object-position:center left}[data-astro-image-pos=center-right]{object-position:center right}}
+.case-prose[data-astro-cid-5mjs4bwp]>*{margin-inline:auto}.case-prose[data-astro-cid-5mjs4bwp]>:first-child{margin-top:0}
+</style></head><body class="flex min-h-screen flex-col"><a class="skip-link" href="#content">Skip to content</a><header class="site-header sticky top-0 z-40 h-(--header-h) border-b border-transparent bg-canvas" data-astro-cid-kbzixps5><div class="shell flex h-full items-center gap-2 sm:gap-4" data-astro-cid-kbzixps5><a href="/port1/" class="flex items-center gap-2 rounded-lg text-lg font-semibold tracking-[-0.03em]" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true"><span data-astro-cid-kbzixps5>Tonghe Zhang</span></a><nav aria-label="Main navigation" class="ml-auto hidden lg:block" data-astro-cid-kbzixps5><ul class="flex items-center gap-1" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/work/" class="nav-link" aria-current="true" data-astro-cid-kbzixps5>Work</a></li><li data-astro-cid-kbzixps5><a href="/port1/about/" class="nav-link" data-astro-cid-kbzixps5>About</a></li><li data-astro-cid-kbzixps5><a href="/port1/resume/" class="nav-link" data-astro-cid-kbzixps5>Resume</a></li></ul></nav><div class="ml-auto flex shrink-0 items-center gap-1 sm:gap-2 lg:ml-1" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="Language"><a href="/port1/work/tailor-of-traffic/" data-language="en" lang="en" hreflang="en" aria-current="page" class="py-2 font-semibold">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/tailor-of-traffic/" data-language="zh" lang="zh-CN" hreflang="zh-CN" class="py-2 text-muted hover:text-ink">中文</a></div><div class="hidden sm:block" data-astro-cid-kbzixps5><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="Dark mode" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div><a class="btn btn-primary btn-sm hidden lg:inline-flex" href="/port1/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>Export Full Portfolio PDF</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken lg:hidden" commandfor="mobile-nav" command="show-modal" aria-haspopup="dialog" aria-label="Menu" data-needs-js data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</span></button></div></div><dialog id="mobile-nav" aria-label="Menu" class="mobile-nav lg:hidden" data-astro-cid-kbzixps5><div class="shell flex h-(--header-h) items-center justify-between" data-astro-cid-kbzixps5><a href="/port1/" class="flex items-center gap-2 text-lg font-semibold" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">Tonghe Zhang</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken" commandfor="mobile-nav" command="close" aria-label="Close menu" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18 6 6 18" />
+  <path d="m6 6 12 12" />
+</svg>
+</span></button></div><nav aria-label="Mobile navigation" class="shell mt-4" data-astro-cid-kbzixps5><ul class="grid" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/" class="mobile-link" data-astro-cid-kbzixps5>Home</a></li><li data-astro-cid-kbzixps5><a href="/port1/work/" class="mobile-link" aria-current="true" data-astro-cid-kbzixps5>Work</a></li><li data-astro-cid-kbzixps5><a href="/port1/about/" class="mobile-link" data-astro-cid-kbzixps5>About</a></li><li data-astro-cid-kbzixps5><a href="/port1/resume/" class="mobile-link" data-astro-cid-kbzixps5>Resume</a></li></ul><a class="btn btn-primary mt-6" href="/port1/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>Export Full Portfolio PDF</a><div class="mt-5 flex items-center gap-2" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="Language"><a href="/port1/work/tailor-of-traffic/" data-language="en" lang="en" hreflang="en" aria-current="page" class="py-2 font-semibold">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/tailor-of-traffic/" data-language="zh" lang="zh-CN" hreflang="zh-CN" class="py-2 text-muted hover:text-ink">中文</a></div><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="Dark mode" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div></nav></dialog></header><script type="module">var e=document.getElementById(`mobile-nav`);e&&!(`command`in HTMLButtonElement.prototype)&&document.querySelectorAll(`[commandfor="mobile-nav"]`).forEach(t=>{t.addEventListener(`click`,()=>t.getAttribute(`command`)===`close`?e.close():e.showModal())}),e?.addEventListener(`click`,t=>{t.target.closest(`a`)&&e.close()}),matchMedia(`(min-width: 64rem)`).addEventListener(`change`,t=>t.matches&&e?.close());</script><main id="content" class="flex-1"><div class="shell pt-9 sm:pt-12"><a class="link text-sm" href="/port1/work/">Work</a></div><article class="project-article" data-project="tailor-of-traffic" style="--tint: #e1e6f2" data-astro-cid-5mjs4bwp><header class="shell project-heading pt-5 sm:pt-7" data-astro-cid-5mjs4bwp><h1 class="project-title mt-2 max-w-[25ch] text-headline" data-astro-cid-5mjs4bwp="true">Tailor of Traffic</h1><p class="project-summary mt-5 max-w-3xl text-lead text-body" data-astro-cid-5mjs4bwp>A satirical fashion-commerce game: the weirder the garment, the better it sells, until the buyer&#39;s photo and the returns expose the illusion.</p><dl class="project-meta mt-7 flex flex-wrap gap-x-8 gap-y-3 border-t border-line pt-4" data-astro-cid-5mjs4bwp><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>Role</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>Game Designer &amp; Developer (implemented with AI coding tools)</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>Timeframe</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>Nov 2026</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>Organization</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>Personal project</dd></div></dl><div class="project-metrics mt-5 max-w-3xl" data-astro-cid-5mjs4bwp><p class="text-sm font-semibold text-ink" data-astro-cid-5mjs4bwp>Key outcomes</p><ul class="mt-1.5 list-disc space-y-1 pl-5 text-body" data-astro-cid-5mjs4bwp><li data-astro-cid-5mjs4bwp>24 garment parts, 5 fabrics and 3 photo sets; three seasons per run, about 20-30 minutes</li><li data-astro-cid-5mjs4bwp>Season 1 example: 38 units sold, 13 returned, net profit of 221 yuan</li><li data-astro-cid-5mjs4bwp>Browser version plus a Unity (C#, URP) port, in English and Chinese</li></ul></div><ul class="project-tags mt-5 flex flex-wrap gap-1.5" aria-label="Project tags" data-astro-cid-5mjs4bwp><li class="chip" data-astro-cid-5mjs4bwp>Game design</li><li class="chip" data-astro-cid-5mjs4bwp>Systems design</li><li class="chip" data-astro-cid-5mjs4bwp>Economy design</li><li class="chip" data-astro-cid-5mjs4bwp>Information design</li><li class="chip" data-astro-cid-5mjs4bwp>Three.js</li><li class="chip" data-astro-cid-5mjs4bwp>Unity</li><li class="chip" data-astro-cid-5mjs4bwp>Bilingual</li></ul></header><div class="shell project-cover mt-9 sm:mt-12" data-astro-cid-5mjs4bwp><figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Knbw5.webp" srcset="/port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Z22XXqF.webp 640w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Z1xe8PW.webp 960w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_ZkxAgj.webp 1280w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Knbw5.webp 1600w" alt="Launch screen showing the polished seller photo of a garment beside a flat, awkward buyer photo." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" fetchpriority="high" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Launch day. The seller photo on the left drives the orders; the buyer photo on the right drives the returns.</figcaption></figure></div><div class="shell project-body mt-10 sm:mt-16" data-astro-cid-5mjs4bwp><div class="prose case-prose" data-astro-cid-5mjs4bwp><h2 id="overview">Overview</h2>
+<p>Tailor of Traffic is a bilingual browser game about a fashion designer who learns to make clothes for an attention economy. The player assembles a garment, stages and retouches the sale photo, sets a price and production quantity, and then sees what customers actually received. A flood of orders can still lose money once the returns arrive.</p>
+<p>The project grew from one observation about online fashion retail: a bizarre garment can draw attention, product photography can make it desirable, and the customer’s photo can undo the illusion in seconds. A Unity port of the full game was built afterwards.</p>
+<h2 id="the-premise">The premise</h2>
+<p>A designer is repeatedly rejected by the market. Two scripted failures establish the stakes, and then the designer awakens a “system” that shows how popular each design element is. From then on the designer stitches trending keywords together into ever more absurd hits. The tone is absurd, cheerful and satirical, and the central image is a designer adding a sixth sleeve to a shirt because it might sell, while thinking <em>this shirt is stupid</em>.</p>
+<p>Reference points from the concept notes:</p>
+<ul>
+<li><em>Game Dev Tycoon</em>: creative decisions tied to business results.</li>
+<li><em>Reigns</em>: simple decisions with consequences that emerge later.</li>
+<li><em>Papers, Please</em>: a theme expressed through the work the player repeats.</li>
+<li><em>Good Pizza, Great Pizza</em>: a familiar job made funny by its customers.</li>
+</ul>
+<p>The defining application of these ideas is the side-by-side reveal of the same garment in a polished seller photo and an unflattering buyer photo.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Knbw5.webp" srcset="/port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Z22XXqF.webp 640w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Z1xe8PW.webp 960w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_ZkxAgj.webp 1280w, /port1/_astro/tailor-seller-vs-buyer.C-vvZalF_Knbw5.webp 1600w" alt="Launch screen showing the polished seller photo of a garment beside a flat, awkward buyer photo." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Launch day. The seller photo on the left drives the orders; the buyer photo on the right drives the returns.</figcaption></figure>
+<h2 id="core-loop-three-stages-three-seasons">Core loop: three stages, three seasons</h2>
+<h3 id="1-design">1. Design</h3>
+<p>Each season starts at the cutting table. The player picks one of two base patterns (a shirt for 80 yuan or a dress for 100 yuan), chooses from five fabrics, and attaches up to 24 parts across the neck, arms, chest, hem and extras. Parts can be duplicated, scaled and moved from slot to slot. An intern tries the garment on in a preview corner and reacts (“Please don’t tell anyone I work here”). Market heat and costs are visible; the garment’s underlying scores stay hidden while editing.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-workshop-editor.CUOK5iG__ZJny4K.webp" srcset="/port1/_astro/tailor-workshop-editor.CUOK5iG__Z1AUmEJ.webp 640w, /port1/_astro/tailor-workshop-editor.CUOK5iG__Z16ax51.webp 960w, /port1/_astro/tailor-workshop-editor.CUOK5iG__Z1PjkR9.webp 1280w, /port1/_astro/tailor-workshop-editor.CUOK5iG__ZJny4K.webp 1600w" alt="Workshop editor with a shirt covered in extra sleeves and straps, the part list on the right and the intern's preview in the corner." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">The workshop editor. Stacking extra sleeves and straps raises trend heat while the intern tries the garment on in the corner.</figcaption></figure>
+<h3 id="2-photo-shoot">2. Photo shoot</h3>
+<p>The player picks a model (the intern for a flat 200 yuan, or a supermodel at 15 yuan per second while the clock runs), one of three sets (white studio, worksite or beach) and up to two props. Dragging limb handles poses the model, and three sliders retouch the frame: film mood, fabric polish and golden ratio.</p>
+<p>Pulling the golden-ratio slider stretches the model’s proportions in screen space, which also warps the background. On the beach set a heavy edit bends the horizon and the shoreline. Horizons, doorframes and railings become evidence that players can see for themselves.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-photo-shoot-beach.BfvfBXaa_Z1saj1G.webp" srcset="/port1/_astro/tailor-photo-shoot-beach.BfvfBXaa_Z25octv.webp 640w, /port1/_astro/tailor-photo-shoot-beach.BfvfBXaa_Zica9G.webp 960w, /port1/_astro/tailor-photo-shoot-beach.BfvfBXaa_Z1JkpbE.webp 1280w, /port1/_astro/tailor-photo-shoot-beach.BfvfBXaa_Z1saj1G.webp 1600w" alt="Photo-shoot screen on the beach set with a posed model, a coffee prop and retouch sliders." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">The photo shoot on the beach set. Turning Golden ratio all the way up stretches the pose and bends the waves behind the model.</figcaption></figure>
+<h3 id="3-shop-and-launch">3. Shop and launch</h3>
+<p>After the shoot the player sets a retail price and a production run, then decides what to do with unsold stock from earlier seasons. The launch reveals demand, returns, reviews and the balance sheet, and places the polished cover next to the buyer’s photo.</p>
+<p>In one Season 1 run, selling 38 units brought in 2,475 yuan, but 13 units came back. After 1,950 yuan of production, 104 yuan of return shipping, the 200 yuan model fee and the 195 yuan sample cost, net profit was 221 yuan.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-season-statement.WiLYmSuC_ZgWgvW.webp" srcset="/port1/_astro/tailor-season-statement.WiLYmSuC_Z21cXdY.webp 640w, /port1/_astro/tailor-season-statement.WiLYmSuC_Z1CGUaO.webp 960w, /port1/_astro/tailor-season-statement.WiLYmSuC_2iC6dV.webp 1280w, /port1/_astro/tailor-season-statement.WiLYmSuC_ZgWgvW.webp 1600w" alt="Season statement listing units sold, returns, production cost, return shipping, model fee and net profit." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Season 1 statement: 38 units sold, 13 returned, net profit of 221 yuan after production, return shipping, model fee and sample cost.</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-horizon-callout.hQV44V3E_26s0rz.webp" srcset="/port1/_astro/tailor-horizon-callout.hQV44V3E_Z1lCvax.webp 640w, /port1/_astro/tailor-horizon-callout.hQV44V3E_26s0rz.webp 800w" alt="Chinese-language launch screen where a social post circles a bent horizon in a retouched beach photo." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="800" height="450" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Launch-day reveal (Chinese build): a social post calls out the bent horizon in the retouched beach photo.</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-buyer-photo-gallery.DPEQhUyC_Z1bOatO.webp" srcset="/port1/_astro/tailor-buyer-photo-gallery.DPEQhUyC_Z1mGYAq.webp 640w, /port1/_astro/tailor-buyer-photo-gallery.DPEQhUyC_Z1bOatO.webp 800w" alt="Chinese-language launch screen showing a grid of customers' buyer photos of the same garment." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="800" height="450" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Launch-day reveal (Chinese build): a grid of buyer photos of the same garment.</figcaption></figure>
+<h2 id="between-seasons">Between seasons</h2>
+<ul>
+<li>Rent is due every season and trends shift from one season to the next, so a hit in Season 1 does not carry over.</li>
+<li>The first, panned garment hangs in the workshop, and its condition reflects the designer’s choices across the three seasons; it returns in the ending.</li>
+<li>The design notes also call for market heat that saturates (if everyone makes short sleeves, short sleeves stop being worth anything), lagging system data and competitors who copy hits, so that players cannot simply optimize against a visible number.</li>
+</ul>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-trend-board.C-420X-N_140LIQ.webp" srcset="/port1/_astro/tailor-trend-board.C-420X-N_tdRl4.webp 640w, /port1/_astro/tailor-trend-board.C-420X-N_1lWIqy.webp 960w, /port1/_astro/tailor-trend-board.C-420X-N_Z1x1t3y.webp 1280w, /port1/_astro/tailor-trend-board.C-420X-N_140LIQ.webp 1600w" alt="Trend board at the start of Season 1 with market-heat bars for Cooling, Office, Retro, Punk, Bling, Minimal, Sport and Dopamine." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="922" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">The trend board at the start of Season 1: public heat and direction for eight styles.</figcaption></figure>
+<h2 id="design-principle-information-visibility">Design principle: information visibility</h2>
+<p>The design notes give every metric, threshold and event a visibility tier, because what the designer knows is not what the player needs to see.</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Meaning</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visible</td>
+<td>The interface shows the number</td>
+<td>Style heat, cost, budget</td>
+</tr>
+<tr>
+<td>Implied</td>
+<td>No number; shown through imagery or character reactions</td>
+<td>The intern’s expression, a bent doorframe, a dusty garment on the wall</td>
+</tr>
+<tr>
+<td>Revealed afterwards</td>
+<td>Unknown until launch or settlement</td>
+<td>Sales, returns, reviews, which hidden keyword fired</td>
+</tr>
+<tr>
+<td>Hidden</td>
+<td>Never shown; players discover it by experimenting</td>
+<td>Hidden-keyword conditions, the sweet spot of absurdity</td>
+</tr>
+</tbody>
+</table>
+<p>Consequences of this rule:</p>
+<ul>
+<li>The system shows traffic, not consequences. That is itself the satire.</li>
+<li>Internal metric names are never the words players see; the interface uses industry jargon instead.</li>
+<li>No live scores appear while the player designs, poses or retouches. Feedback arrives after the action, at launch or settlement.</li>
+<li>Jokes are never explained. The seller photo and buyer photo sit side by side and the gap speaks for itself.</li>
+</ul>
+<h2 id="playtest-feedback-and-what-changed">Playtest feedback and what changed</h2>
+<table>
+<thead>
+<tr>
+<th>Player feedback</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Players could not remember what the system said during the awakening and could not find it after leaving the board</td>
+<td>A cross-stage “system” entry that can be opened from the trend board, design, shoot and shop</td>
+</tr>
+<tr>
+<td>Numbers and arrows were hard to understand</td>
+<td>Plain-language explanations of the public heat and direction indicators, inside the system panel</td>
+</tr>
+<tr>
+<td>Too many variables at the start</td>
+<td>Gradual release of indicators across seasons (proposed)</td>
+</tr>
+<tr>
+<td>Players wanted to spend earnings on more design options</td>
+<td>Purchasable unlocks (proposed), with the unlock price and the per-season sample cost stated clearly</td>
+</tr>
+<tr>
+<td>Staged props sometimes moved by themselves</td>
+<td>Traced the cat’s timed movement; other cases still to reproduce</td>
+</tr>
+</tbody>
+</table>
+<p>The resulting <strong>system panel</strong> explains the eight public heat and trend indicators and recalls current and past headlines. Its messages come from existing season data, so it adds no save fields. Opening it keeps the current screen and pauses the model’s billing timer; closing it restores focus.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-system-panel-en.C-hTOEFo_kfMj0.webp" srcset="/port1/_astro/tailor-system-panel-en.C-hTOEFo_1WmpuO.webp 640w, /port1/_astro/tailor-system-panel-en.C-hTOEFo_kfMj0.webp 800w" alt="English system panel listing the top three trending styles with their heat, direction and the parts found in them." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="800" height="450" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">The cross-stage system panel added after playtest feedback, here in English.</figcaption></figure>
+<h2 id="technology">Technology</h2>
+<p><strong>Browser version.</strong> TypeScript, Three.js and Vite. The scene renders at 480 x 270 with a depth texture; a full-screen pass adds depth outlines and 64-colour OKLab palette matching before nearest-neighbour enlargement. Models are built from boxes, with attachment slots for garment parts, two-bone inverse kinematics for posing, and simplified proxy boxes for picking and occlusion. The proportion edit is a screen-space warp that distorts the background with the model, and the same transformation is implemented in TypeScript for interaction. The simulation layer (garment attributes, demand, returns, season transitions) is written as pure functions with injectable random sources, separate from the renderer. Player-facing text lives in Chinese and English JSON files.</p>
+<p><strong>Unity port.</strong> Built with Unity 6000.6.9f1, URP 17.6 and the Input System. It keeps the C# simulation layer, voxel export and pixel shader. The full flow (language select, two opening failures, awakening, three seasons, ending and restart) was run in the macOS player in both languages at 1280 x 720, 844 x 390 and 568 x 320.</p>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-unity-design-screen.Cd6sH0t6_Z1NvgaL.webp" srcset="/port1/_astro/tailor-unity-design-screen.Cd6sH0t6_1me8Ln.webp 640w, /port1/_astro/tailor-unity-design-screen.Cd6sH0t6_x4oul.webp 960w, /port1/_astro/tailor-unity-design-screen.Cd6sH0t6_Z1NvgaL.webp 1280w" alt="Unity port: the design screen with a garment on a mannequin, part tabs and the intern's preview." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1280" height="720" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Unity port: the design stage.</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-unity-seller-vs-buyer.xXxB9gVA_ZbMAUE.webp" srcset="/port1/_astro/tailor-unity-seller-vs-buyer.xXxB9gVA_D1zWT.webp 640w, /port1/_astro/tailor-unity-seller-vs-buyer.xXxB9gVA_ZVtu9m.webp 960w, /port1/_astro/tailor-unity-seller-vs-buyer.xXxB9gVA_ZbMAUE.webp 1280w" alt="Unity port: seller photo and buyer photo shown side by side after launch." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1280" height="720" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Unity port: the seller photo / buyer photo reveal.</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/tailor-unity-ending.kILJNTpO_Z1zA601.webp" srcset="/port1/_astro/tailor-unity-ending.kILJNTpO_15RnDD.webp 640w, /port1/_astro/tailor-unity-ending.kILJNTpO_Y8A2L.webp 960w, /port1/_astro/tailor-unity-ending.kILJNTpO_Z1zA601.webp 1280w" alt="Unity port: ending screen showing the three covers from the three seasons and the first garment on the wall." sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1280" height="720" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">Unity port: the ending shows the three seasons&#39; covers.</figcaption></figure>
+<h2 id="process">Process</h2>
+<p>Work proceeded in milestones: an orthographic pixel renderer and workshop; a deterministic simulation with the specified reference strategies; one playable season; extra sets, props, occlusion and hidden events; then the scripted opening, ending and three-season structure. The bilingual version was developed separately and merged into the main tree. Hand-off notes (AGENTS.md and PROGRESS.md) carried the work between Claude Code and Codex.</p>
+<h2 id="limits-and-next-steps">Limits and next steps</h2>
+<ul>
+<li>Implementation was done with AI coding tools; the design, specification, trade-offs and playtest judgment are mine.</li>
+<li>Playtesting so far has been internal. Whether first-time players can explain market heat and use it to choose a design is still an open question.</li>
+<li>Known defect: if the season board saves before photos finish decoding, earlier photos can turn transparent.</li>
+<li>The Unity port has no Android build yet, and some buttons are small at 568 x 320.</li>
+<li>Proposed next iterations: gradual release of indicators and purchasable design options.</li>
+</ul></div></div></article><aside class="shell mt-24 sm:mt-32" aria-labelledby="next-project" data-astro-cid-fe5pqsxl><div class="next-card relative grid overflow-hidden rounded-card border border-line bg-surface md:grid-cols-2" data-astro-cid-fe5pqsxl><div class="flex flex-col justify-between gap-10 p-7 sm:p-10" data-astro-cid-fe5pqsxl><p id="next-project" class="eyebrow" data-astro-cid-fe5pqsxl>Next case study</p><div data-astro-cid-fe5pqsxl><p class="font-medium text-muted" data-astro-cid-fe5pqsxl>Personal project</p><p class="mt-2 text-title" data-astro-cid-fe5pqsxl><a href="/port1/work/michelin-under-the-desk/" class="after:absolute after:inset-0 focus-visible:outline-none" data-astro-cid-fe5pqsxl>Michelin Under the Desk</a></p><span class="btn btn-primary btn-sm mt-8" aria-hidden="true" data-astro-cid-fe5pqsxl>Work<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full icon-nudge size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></span></div></div><div class="tint-panel relative min-h-64 overflow-hidden" style="--tint: #eee0ce" data-astro-cid-fe5pqsxl><img src="/port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp" srcset="/port1/_astro/michelin-look-down.CgOdtXJ7_IzPeA.webp 640w, /port1/_astro/michelin-look-down.CgOdtXJ7_8dl9c.webp 960w, /port1/_astro/michelin-look-down.CgOdtXJ7_lyvAU.webp 1280w, /port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp 1600w" alt sizes="(min-width: 80rem) 50rem, (min-width: 48rem) 65vw, 130vw" data-astro-cid-fe5pqsxl="true" loading="lazy" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="875" class="next-shot shot absolute top-[14%] left-[10%] w-[130%] max-w-none"></div></div></aside></main><footer class="site-footer mt-20 border-t border-line sm:mt-28"><div class="shell grid gap-6 py-10 sm:grid-cols-[1fr_auto] sm:items-end"><div><a href="/port1/" class="inline-flex items-center gap-2.5 text-lg font-semibold"><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">Tonghe Zhang</a><p class="mt-2 text-sm text-muted">UX · Product Management · Gameplay Design</p></div><div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm"><a class="link" href="mailto:zth021207@gmail.com">zth021207@gmail.com</a><a class="link" href="https://czhang10.itch.io/theeighthcrossroad">itch.io</a><a class="link" href="https://medium.com/@zhangtonghe021207">Medium</a><a class="inline-flex items-center gap-1.5 text-muted hover:text-ink" href="#content">Back to top<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-3.5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 12 7-7 7 7" />
+  <path d="M12 19V5" />
+</svg>
+</span></a></div></div></footer></body></html>

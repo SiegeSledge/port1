@@ -1,0 +1,250 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>《第五人格》AI 新手赛后复盘助手 | 张桐赫</title><meta name="description" content="把新手的一局游戏组织成&quot;定位问题—解释原因—训练建议&quot;的 AI 教练闭环，并为高压玩法模式设计背包快捷替换交互。"><meta name="color-scheme" content="light dark"><meta name="robots" content="noindex, nofollow"><link rel="icon" type="image/svg+xml" href="/port1/favicon.svg"><link rel="canonical" href="https://siegesledge.github.io/port1/zh/work/identity-v-ai-review-assistant/"><link rel="alternate" hreflang="zh-CN" href="https://siegesledge.github.io/port1/zh/work/identity-v-ai-review-assistant/"><link rel="alternate" hreflang="en" href="https://siegesledge.github.io/port1/work/identity-v-ai-review-assistant/"><link rel="preload" href="/port1/fonts/hanken-grotesk/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="og:site_name" content="张桐赫"><meta property="og:title" content="《第五人格》AI 新手赛后复盘助手 | 张桐赫"><meta property="og:description" content="把新手的一局游戏组织成&quot;定位问题—解释原因—训练建议&quot;的 AI 教练闭环，并为高压玩法模式设计背包快捷替换交互。"><meta property="og:url" content="https://siegesledge.github.io/port1/zh/work/identity-v-ai-review-assistant/"><meta property="og:image" content="https://siegesledge.github.io/port1/_astro/identity-v-cover.DYFBOKaS.jpg"><meta property="og:image:alt" content="《第五人格》官方主视觉：火光将庄园大厅的两幅景象分隔开。"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","name":"《第五人格》AI 新手赛后复盘助手","description":"把新手的一局游戏组织成\"定位问题—解释原因—训练建议\"的 AI 教练闭环，并为高压玩法模式设计背包快捷替换交互。","image":"https://siegesledge.github.io/port1/_astro/identity-v-cover.DYFBOKaS.jpg","url":"https://siegesledge.github.io/port1/zh/work/identity-v-ai-review-assistant/","author":{"@type":"Person","@id":"https://siegesledge.github.io/port1/zh/#person","name":"张桐赫","jobTitle":"UX · 产品经理 · 玩法设计","email":"zth20021207@126.com","url":"https://siegesledge.github.io/port1/zh/","sameAs":["https://czhang10.itch.io/theeighthcrossroad","https://medium.com/@zhangtonghe021207"]},"inLanguage":"zh-CN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://siegesledge.github.io/port1/zh/"},{"@type":"ListItem","position":2,"name":"项目","item":"https://siegesledge.github.io/port1/zh/work/"},{"@type":"ListItem","position":3,"name":"《第五人格》AI 新手赛后复盘助手","item":"https://siegesledge.github.io/port1/zh/work/identity-v-ai-review-assistant/"}]}]}</script><script>
+      (() => {
+        const storageKey = 'port1-theme';
+        const root = document.documentElement;
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+        let stored = null;
+
+        try {
+          stored = localStorage.getItem(storageKey);
+        } catch {}
+
+        const apply = (isDark) => {
+          root.classList.toggle('dark', isDark);
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.setAttribute('aria-pressed', String(isDark));
+          });
+        };
+
+        apply(stored ? stored === 'dark' : systemDark.matches);
+
+        systemDark.addEventListener('change', (event) => {
+          if (!stored) apply(event.matches);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+          apply(root.classList.contains('dark'));
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.addEventListener('click', () => {
+              const isDark = !root.classList.contains('dark');
+              stored = isDark ? 'dark' : 'light';
+              try {
+                localStorage.setItem(storageKey, stored);
+              } catch {}
+              apply(isDark);
+            });
+          });
+        });
+      })();
+    </script><noscript><style>
+        [data-needs-js] {
+          display: none !important;
+        }
+      </style></noscript><link rel="stylesheet" href="/port1/_astro/BaseLayout.DsPDLBHR.css"><style>.next-card[data-astro-cid-fe5pqsxl]:has(a:focus-visible){outline:2px solid var(--ink);outline-offset:6px}@media (prefers-reduced-motion:no-preference){.next-shot[data-astro-cid-fe5pqsxl]{transform-origin:0 0;transition:scale .7s var(--ease-out-expo)}}@media (hover:hover) and (prefers-reduced-motion:no-preference){.next-card[data-astro-cid-fe5pqsxl]:hover .next-shot[data-astro-cid-fe5pqsxl]{scale:1.04}.next-card[data-astro-cid-fe5pqsxl]:hover .icon-nudge[data-astro-cid-fe5pqsxl]{transform:translate(3px)}}
+@layer astro.images{:where([data-astro-image]){height:auto}:where([data-astro-image=full-width]){width:100%}:where([data-astro-image=constrained]){max-width:100%}[data-astro-image-fit=fill]{object-fit:fill}[data-astro-image-fit=contain]{object-fit:contain}[data-astro-image-fit=cover]{object-fit:cover}[data-astro-image-fit=scale-down]{object-fit:scale-down}[data-astro-image-pos=top]{object-position:top}[data-astro-image-pos=bottom]{object-position:bottom}[data-astro-image-pos=left]{object-position:left}[data-astro-image-pos=right]{object-position:right}[data-astro-image-pos=center]{object-position:center}[data-astro-image-pos=top-left]{object-position:top left}[data-astro-image-pos=top-right]{object-position:top right}[data-astro-image-pos=top-center]{object-position:top center}[data-astro-image-pos=bottom-left]{object-position:bottom left}[data-astro-image-pos=bottom-right]{object-position:bottom right}[data-astro-image-pos=bottom-center]{object-position:bottom center}[data-astro-image-pos=left-top]{object-position:left top}[data-astro-image-pos=left-bottom]{object-position:left bottom}[data-astro-image-pos=left-center]{object-position:left center}[data-astro-image-pos=right-top]{object-position:right top}[data-astro-image-pos=right-bottom]{object-position:right bottom}[data-astro-image-pos=right-center]{object-position:right center}[data-astro-image-pos=center-top]{object-position:center top}[data-astro-image-pos=center-bottom]{object-position:center bottom}[data-astro-image-pos=center-left]{object-position:center left}[data-astro-image-pos=center-right]{object-position:center right}}
+.case-prose[data-astro-cid-5mjs4bwp]>*{margin-inline:auto}.case-prose[data-astro-cid-5mjs4bwp]>:first-child{margin-top:0}
+</style></head><body class="flex min-h-screen flex-col"><a class="skip-link" href="#content">跳到正文</a><header class="site-header sticky top-0 z-40 h-(--header-h) border-b border-transparent bg-canvas" data-astro-cid-kbzixps5><div class="shell flex h-full items-center gap-2 sm:gap-4" data-astro-cid-kbzixps5><a href="/port1/zh/" class="flex items-center gap-2 rounded-lg text-lg font-semibold tracking-[-0.03em]" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true"><span data-astro-cid-kbzixps5>张桐赫</span></a><nav aria-label="主导航" class="ml-auto hidden lg:block" data-astro-cid-kbzixps5><ul class="flex items-center gap-1" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/zh/work/" class="nav-link" aria-current="true" data-astro-cid-kbzixps5>项目</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/about/" class="nav-link" data-astro-cid-kbzixps5>关于</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/resume/" class="nav-link" data-astro-cid-kbzixps5>简历</a></li></ul></nav><div class="ml-auto flex shrink-0 items-center gap-1 sm:gap-2 lg:ml-1" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="语言"><a href="/port1/work/identity-v-ai-review-assistant/" data-language="en" lang="en" hreflang="en" class="py-2 text-muted hover:text-ink">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/identity-v-ai-review-assistant/" data-language="zh" lang="zh-CN" hreflang="zh-CN" aria-current="page" class="py-2 font-semibold">中文</a></div><div class="hidden sm:block" data-astro-cid-kbzixps5><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="深色模式" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div><a class="btn btn-primary btn-sm hidden lg:inline-flex" href="/port1/zh/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>导出完整作品集 PDF</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken lg:hidden" commandfor="mobile-nav" command="show-modal" aria-haspopup="dialog" aria-label="菜单" data-needs-js data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</span></button></div></div><dialog id="mobile-nav" aria-label="菜单" class="mobile-nav lg:hidden" data-astro-cid-kbzixps5><div class="shell flex h-(--header-h) items-center justify-between" data-astro-cid-kbzixps5><a href="/port1/zh/" class="flex items-center gap-2 text-lg font-semibold" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">张桐赫</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken" commandfor="mobile-nav" command="close" aria-label="关闭菜单" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18 6 6 18" />
+  <path d="m6 6 12 12" />
+</svg>
+</span></button></div><nav aria-label="移动端导航" class="shell mt-4" data-astro-cid-kbzixps5><ul class="grid" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/zh/" class="mobile-link" data-astro-cid-kbzixps5>首页</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/work/" class="mobile-link" aria-current="true" data-astro-cid-kbzixps5>项目</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/about/" class="mobile-link" data-astro-cid-kbzixps5>关于</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/resume/" class="mobile-link" data-astro-cid-kbzixps5>简历</a></li></ul><a class="btn btn-primary mt-6" href="/port1/zh/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>导出完整作品集 PDF</a><div class="mt-5 flex items-center gap-2" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="语言"><a href="/port1/work/identity-v-ai-review-assistant/" data-language="en" lang="en" hreflang="en" class="py-2 text-muted hover:text-ink">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/identity-v-ai-review-assistant/" data-language="zh" lang="zh-CN" hreflang="zh-CN" aria-current="page" class="py-2 font-semibold">中文</a></div><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="深色模式" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div></nav></dialog></header><script type="module">var e=document.getElementById(`mobile-nav`);e&&!(`command`in HTMLButtonElement.prototype)&&document.querySelectorAll(`[commandfor="mobile-nav"]`).forEach(t=>{t.addEventListener(`click`,()=>t.getAttribute(`command`)===`close`?e.close():e.showModal())}),e?.addEventListener(`click`,t=>{t.target.closest(`a`)&&e.close()}),matchMedia(`(min-width: 64rem)`).addEventListener(`change`,t=>t.matches&&e?.close());</script><main id="content" class="flex-1"><div class="shell pt-9 sm:pt-12"><a class="link text-sm" href="/port1/zh/work/">项目</a></div><article class="project-article" data-project="identity-v-ai-review-assistant" style="--tint: #e5dfe7" data-astro-cid-5mjs4bwp><header class="shell project-heading pt-5 sm:pt-7" data-astro-cid-5mjs4bwp><h1 class="project-title mt-2 max-w-[25ch] text-headline" data-astro-cid-5mjs4bwp="true">《第五人格》AI 新手赛后复盘助手</h1><p class="project-summary mt-5 max-w-3xl text-lead text-body" data-astro-cid-5mjs4bwp>把新手的一局游戏组织成&quot;定位问题—解释原因—训练建议&quot;的 AI 教练闭环，并为高压玩法模式设计背包快捷替换交互。</p><dl class="project-meta mt-7 flex flex-wrap gap-x-8 gap-y-3 border-t border-line pt-4" data-astro-cid-5mjs4bwp><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>角色</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>用户体验设计师（实习）</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>时间</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>2026 年 6 月 – 2026 年 8 月</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>机构</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>网易互动娱乐</dd></div></dl><div class="project-metrics mt-5 max-w-3xl" data-astro-cid-5mjs4bwp><p class="text-sm font-semibold text-ink" data-astro-cid-5mjs4bwp>核心成果</p><ul class="mt-1.5 list-disc space-y-1 pl-5 text-body" data-astro-cid-5mjs4bwp><li data-astro-cid-5mjs4bwp>独立完成 UI 交互相关的专利交底材料</li><li data-astro-cid-5mjs4bwp>背包快捷替换交互推进到测试服验证</li></ul></div><ul class="project-tags mt-5 flex flex-wrap gap-1.5" aria-label="项目标签" data-astro-cid-5mjs4bwp><li class="chip" data-astro-cid-5mjs4bwp>UX 设计</li><li class="chip" data-astro-cid-5mjs4bwp>AI 产品</li><li class="chip" data-astro-cid-5mjs4bwp>游戏 UX</li><li class="chip" data-astro-cid-5mjs4bwp>Multi-Agent</li><li class="chip" data-astro-cid-5mjs4bwp>Function Calling</li><li class="chip" data-astro-cid-5mjs4bwp>RAG</li><li class="chip" data-astro-cid-5mjs4bwp>交互设计</li></ul></header><div class="shell project-cover mt-9 sm:mt-12" data-astro-cid-5mjs4bwp><figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/identity-v-cover.DYFBOKaS_2k8drH.webp" srcset="/port1/_astro/identity-v-cover.DYFBOKaS_1VnwFj.webp 640w, /port1/_astro/identity-v-cover.DYFBOKaS_2k8drH.webp 650w" alt="《第五人格》官方主视觉：火光将庄园大厅的两幅景象分隔开。" sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" fetchpriority="high" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="650" height="302" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">《第五人格》官方宣传图（仅作项目视觉封面）</figcaption></figure></div><div class="shell project-body mt-10 sm:mt-16" data-astro-cid-5mjs4bwp><div class="prose case-prose" data-astro-cid-5mjs4bwp><h2 id="概述">概述</h2>
+<p>在网易互动娱乐的暑期用户体验设计实习中，我为《第五人格》做了两件事：从 0 到 1 设计面向新玩家的 AI 赛后复盘助手，以及摸金模式的背包快捷替换交互。</p>
+<h2 id="项目一ai-赛后复盘助手">项目一：AI 赛后复盘助手</h2>
+<h3 id="问题">问题</h3>
+<p>新玩家能完成基础操作，但很难理解一局游戏背后的决策。原始回放和文字总结并不能告诉他们错在哪里、该练什么。</p>
+<h3 id="设计">设计</h3>
+<ul>
+<li>把关键战局事件、游戏机制知识和个性化建议组织成闭环：<strong>定位问题、解释原因、训练建议</strong>。</li>
+<li>交付了核心流程、交互原型、可运行 Demo 和 Multi-Agent 架构设计。</li>
+<li>Demo 中，AI 通过 Function Calling 调用预设的事件查看器来读取结构化对局事件，使分析能落到具体行为上。</li>
+<li>天赋推荐与解释场景使用 RAG 检索 Wiki、游戏术语以及技能 Counter / Combo 信息，使建议同时结合真实对局证据与领域知识。</li>
+</ul>
+<h3 id="自然语言与-gui-的分工">自然语言与 GUI 的分工</h3>
+<p>我探索了在 AI 教练场景里语言和图形界面该如何分工：自然语言负责解释、追问和个性化建议；时间节点、关键事件和结构化信息帮助玩家定位问题，避免把复杂战局压缩成无法验证的文字回答。</p>
+<h2 id="项目二摸金模式背包快捷替换">项目二：摸金模式背包快捷替换</h2>
+<h3 id="问题-1">问题</h3>
+<p>高压战斗中，玩家需要快速决策，却承担不起误操作。</p>
+<h3 id="设计-1">设计</h3>
+<ul>
+<li>物品推荐、预览确认、一键替换和异常保护机制。</li>
+<li>为工程梳理推荐规则、系统状态和数据需求。</li>
+<li>方案推进到测试服验证。</li>
+</ul>
+<h2 id="工作方式">工作方式</h2>
+<ul>
+<li>与策划、程序、美术开展原型评审和版本验证，并跟进体验问题直至闭环。</li>
+<li>输出交互流程、推荐逻辑和数据接口需求。</li>
+<li>结合 AI Agent、Figma 和代码生成工具做需求分析、原型开发与验证，提升迭代速度和跨职能协作效率。</li>
+<li>独立完成 UI 交互相关的专利交底材料。</li>
+</ul></div></div></article><aside class="shell mt-24 sm:mt-32" aria-labelledby="next-project" data-astro-cid-fe5pqsxl><div class="next-card relative grid overflow-hidden rounded-card border border-line bg-surface md:grid-cols-2" data-astro-cid-fe5pqsxl><div class="flex flex-col justify-between gap-10 p-7 sm:p-10" data-astro-cid-fe5pqsxl><p id="next-project" class="eyebrow" data-astro-cid-fe5pqsxl>下一篇项目</p><div data-astro-cid-fe5pqsxl><p class="font-medium text-muted" data-astro-cid-fe5pqsxl>哥伦比亚大学师范学院（Dennis Morgan 教授指导）</p><p class="mt-2 text-title" data-astro-cid-fe5pqsxl><a href="/port1/zh/work/the-eighth-crossroad/" class="after:absolute after:inset-0 focus-visible:outline-none" data-astro-cid-fe5pqsxl>《第八次抉择》The Eighth Crossroad（第八次献祭）</a></p><span class="btn btn-primary btn-sm mt-8" aria-hidden="true" data-astro-cid-fe5pqsxl>项目<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full icon-nudge size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></span></div></div><div class="tint-panel relative min-h-64 overflow-hidden" style="--tint: #dce6df" data-astro-cid-fe5pqsxl><div class="flex h-full min-h-64 flex-col justify-between gap-5 p-6 sm:p-8 lg:p-10"><p class="text-sm font-semibold tracking-widest text-ink">04</p><div><p class="serif text-[clamp(2rem,1.2rem+3vw,4.5rem)] leading-none text-ink">《第八次抉择》The Eighth Crossroad（第八次献祭）</p><p class="mt-3 text-sm font-semibold text-ink">哥伦比亚大学师范学院（Dennis Morgan 教授指导）</p></div><ul class="flex flex-wrap gap-1.5" aria-label="项目标签"><li class="chip border-current/20">游戏设计</li><li class="chip border-current/20">叙事设计</li><li class="chip border-current/20">Twine</li></ul></div></div></div></aside></main><footer class="site-footer mt-20 border-t border-line sm:mt-28"><div class="shell grid gap-6 py-10 sm:grid-cols-[1fr_auto] sm:items-end"><div><a href="/port1/zh/" class="inline-flex items-center gap-2.5 text-lg font-semibold"><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">张桐赫</a><p class="mt-2 text-sm text-muted">UX · 产品经理 · 玩法设计</p></div><div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm"><a class="link" href="mailto:zth20021207@126.com">zth20021207@126.com</a><a class="link" href="https://czhang10.itch.io/theeighthcrossroad">itch.io</a><a class="link" href="https://medium.com/@zhangtonghe021207">Medium</a><a class="inline-flex items-center gap-1.5 text-muted hover:text-ink" href="#content">返回顶部<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-3.5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 12 7-7 7 7" />
+  <path d="M12 19V5" />
+</svg>
+</span></a></div></div></footer></body></html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>《课桌下的米其林》Michelin Under the Desk | 张桐赫</title><meta name="description" content="一款上课偷吃的单人潜行 roguelite：按住空格低头进食，松开抬头看老师，按 S 把食物藏进桌肚。"><meta name="color-scheme" content="light dark"><meta name="robots" content="noindex, nofollow"><link rel="icon" type="image/svg+xml" href="/port1/favicon.svg"><link rel="canonical" href="https://siegesledge.github.io/port1/zh/work/michelin-under-the-desk/"><link rel="alternate" hreflang="zh-CN" href="https://siegesledge.github.io/port1/zh/work/michelin-under-the-desk/"><link rel="alternate" hreflang="en" href="https://siegesledge.github.io/port1/work/michelin-under-the-desk/"><link rel="preload" href="/port1/fonts/hanken-grotesk/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin><meta property="og:locale" content="zh_CN"><meta property="og:type" content="article"><meta property="og:site_name" content="张桐赫"><meta property="og:title" content="《课桌下的米其林》Michelin Under the Desk | 张桐赫"><meta property="og:description" content="一款上课偷吃的单人潜行 roguelite：按住空格低头进食，松开抬头看老师，按 S 把食物藏进桌肚。"><meta property="og:url" content="https://siegesledge.github.io/port1/zh/work/michelin-under-the-desk/"><meta property="og:image" content="https://siegesledge.github.io/port1/_astro/michelin-look-down.CgOdtXJ7.png"><meta property="og:image:alt" content="第一人称低头视角：双手在桌洞里握着红色零食包装袋。"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","name":"《课桌下的米其林》Michelin Under the Desk","description":"一款上课偷吃的单人潜行 roguelite：按住空格低头进食，松开抬头看老师，按 S 把食物藏进桌肚。","image":"https://siegesledge.github.io/port1/_astro/michelin-look-down.CgOdtXJ7.png","url":"https://siegesledge.github.io/port1/zh/work/michelin-under-the-desk/","author":{"@type":"Person","@id":"https://siegesledge.github.io/port1/zh/#person","name":"张桐赫","jobTitle":"UX · 产品经理 · 玩法设计","email":"zth20021207@126.com","url":"https://siegesledge.github.io/port1/zh/","sameAs":["https://czhang10.itch.io/theeighthcrossroad","https://medium.com/@zhangtonghe021207"]},"inLanguage":"zh-CN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://siegesledge.github.io/port1/zh/"},{"@type":"ListItem","position":2,"name":"项目","item":"https://siegesledge.github.io/port1/zh/work/"},{"@type":"ListItem","position":3,"name":"《课桌下的米其林》Michelin Under the Desk","item":"https://siegesledge.github.io/port1/zh/work/michelin-under-the-desk/"}]}]}</script><script>
+      (() => {
+        const storageKey = 'port1-theme';
+        const root = document.documentElement;
+        const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+        let stored = null;
+
+        try {
+          stored = localStorage.getItem(storageKey);
+        } catch {}
+
+        const apply = (isDark) => {
+          root.classList.toggle('dark', isDark);
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.setAttribute('aria-pressed', String(isDark));
+          });
+        };
+
+        apply(stored ? stored === 'dark' : systemDark.matches);
+
+        systemDark.addEventListener('change', (event) => {
+          if (!stored) apply(event.matches);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+          apply(root.classList.contains('dark'));
+          document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+            button.addEventListener('click', () => {
+              const isDark = !root.classList.contains('dark');
+              stored = isDark ? 'dark' : 'light';
+              try {
+                localStorage.setItem(storageKey, stored);
+              } catch {}
+              apply(isDark);
+            });
+          });
+        });
+      })();
+    </script><noscript><style>
+        [data-needs-js] {
+          display: none !important;
+        }
+      </style></noscript><link rel="stylesheet" href="/port1/_astro/BaseLayout.DsPDLBHR.css"><style>.next-card[data-astro-cid-fe5pqsxl]:has(a:focus-visible){outline:2px solid var(--ink);outline-offset:6px}@media (prefers-reduced-motion:no-preference){.next-shot[data-astro-cid-fe5pqsxl]{transform-origin:0 0;transition:scale .7s var(--ease-out-expo)}}@media (hover:hover) and (prefers-reduced-motion:no-preference){.next-card[data-astro-cid-fe5pqsxl]:hover .next-shot[data-astro-cid-fe5pqsxl]{scale:1.04}.next-card[data-astro-cid-fe5pqsxl]:hover .icon-nudge[data-astro-cid-fe5pqsxl]{transform:translate(3px)}}
+@layer astro.images{:where([data-astro-image]){height:auto}:where([data-astro-image=full-width]){width:100%}:where([data-astro-image=constrained]){max-width:100%}[data-astro-image-fit=fill]{object-fit:fill}[data-astro-image-fit=contain]{object-fit:contain}[data-astro-image-fit=cover]{object-fit:cover}[data-astro-image-fit=scale-down]{object-fit:scale-down}[data-astro-image-pos=top]{object-position:top}[data-astro-image-pos=bottom]{object-position:bottom}[data-astro-image-pos=left]{object-position:left}[data-astro-image-pos=right]{object-position:right}[data-astro-image-pos=center]{object-position:center}[data-astro-image-pos=top-left]{object-position:top left}[data-astro-image-pos=top-right]{object-position:top right}[data-astro-image-pos=top-center]{object-position:top center}[data-astro-image-pos=bottom-left]{object-position:bottom left}[data-astro-image-pos=bottom-right]{object-position:bottom right}[data-astro-image-pos=bottom-center]{object-position:bottom center}[data-astro-image-pos=left-top]{object-position:left top}[data-astro-image-pos=left-bottom]{object-position:left bottom}[data-astro-image-pos=left-center]{object-position:left center}[data-astro-image-pos=right-top]{object-position:right top}[data-astro-image-pos=right-bottom]{object-position:right bottom}[data-astro-image-pos=right-center]{object-position:right center}[data-astro-image-pos=center-top]{object-position:center top}[data-astro-image-pos=center-bottom]{object-position:center bottom}[data-astro-image-pos=center-left]{object-position:center left}[data-astro-image-pos=center-right]{object-position:center right}}
+.case-prose[data-astro-cid-5mjs4bwp]>*{margin-inline:auto}.case-prose[data-astro-cid-5mjs4bwp]>:first-child{margin-top:0}
+</style></head><body class="flex min-h-screen flex-col"><a class="skip-link" href="#content">跳到正文</a><header class="site-header sticky top-0 z-40 h-(--header-h) border-b border-transparent bg-canvas" data-astro-cid-kbzixps5><div class="shell flex h-full items-center gap-2 sm:gap-4" data-astro-cid-kbzixps5><a href="/port1/zh/" class="flex items-center gap-2 rounded-lg text-lg font-semibold tracking-[-0.03em]" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true"><span data-astro-cid-kbzixps5>张桐赫</span></a><nav aria-label="主导航" class="ml-auto hidden lg:block" data-astro-cid-kbzixps5><ul class="flex items-center gap-1" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/zh/work/" class="nav-link" aria-current="true" data-astro-cid-kbzixps5>项目</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/about/" class="nav-link" data-astro-cid-kbzixps5>关于</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/resume/" class="nav-link" data-astro-cid-kbzixps5>简历</a></li></ul></nav><div class="ml-auto flex shrink-0 items-center gap-1 sm:gap-2 lg:ml-1" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="语言"><a href="/port1/work/michelin-under-the-desk/" data-language="en" lang="en" hreflang="en" class="py-2 text-muted hover:text-ink">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/michelin-under-the-desk/" data-language="zh" lang="zh-CN" hreflang="zh-CN" aria-current="page" class="py-2 font-semibold">中文</a></div><div class="hidden sm:block" data-astro-cid-kbzixps5><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="深色模式" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div><a class="btn btn-primary btn-sm hidden lg:inline-flex" href="/port1/zh/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>导出完整作品集 PDF</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken lg:hidden" commandfor="mobile-nav" command="show-modal" aria-haspopup="dialog" aria-label="菜单" data-needs-js data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 5h16" />
+  <path d="M4 12h16" />
+  <path d="M4 19h16" />
+</svg>
+</span></button></div></div><dialog id="mobile-nav" aria-label="菜单" class="mobile-nav lg:hidden" data-astro-cid-kbzixps5><div class="shell flex h-(--header-h) items-center justify-between" data-astro-cid-kbzixps5><a href="/port1/zh/" class="flex items-center gap-2 text-lg font-semibold" data-astro-cid-kbzixps5><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">张桐赫</a><button type="button" class="grid size-10 place-items-center rounded-full hover:bg-sunken" commandfor="mobile-nav" command="close" aria-label="关闭菜单" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18 6 6 18" />
+  <path d="m6 6 12 12" />
+</svg>
+</span></button></div><nav aria-label="移动端导航" class="shell mt-4" data-astro-cid-kbzixps5><ul class="grid" data-astro-cid-kbzixps5><li data-astro-cid-kbzixps5><a href="/port1/zh/" class="mobile-link" data-astro-cid-kbzixps5>首页</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/work/" class="mobile-link" aria-current="true" data-astro-cid-kbzixps5>项目</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/about/" class="mobile-link" data-astro-cid-kbzixps5>关于</a></li><li data-astro-cid-kbzixps5><a href="/port1/zh/resume/" class="mobile-link" data-astro-cid-kbzixps5>简历</a></li></ul><a class="btn btn-primary mt-6" href="/port1/zh/print/" data-astro-cid-kbzixps5><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 15V3" />
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <path d="m7 10 5 5 5-5" />
+</svg>
+</span>导出完整作品集 PDF</a><div class="mt-5 flex items-center gap-2" data-astro-cid-kbzixps5><div class="inline-flex items-center gap-1 rounded-full border border-line px-2.5 text-sm" aria-label="语言"><a href="/port1/work/michelin-under-the-desk/" data-language="en" lang="en" hreflang="en" class="py-2 text-muted hover:text-ink">EN</a><span aria-hidden="true" class="text-muted">/</span><a href="/port1/zh/work/michelin-under-the-desk/" data-language="zh" lang="zh-CN" hreflang="zh-CN" aria-current="page" class="py-2 font-semibold">中文</a></div><button type="button" class="grid size-10 place-items-center rounded-full text-ink transition-colors hover:bg-sunken" aria-label="深色模式" aria-pressed="false" data-theme-toggle data-needs-js><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-[1.15rem] dark:hidden" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg>
+</span><span class="icon shrink-0 place-items-center [&amp;>svg]:size-full hidden size-[1.15rem] dark:inline-grid" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg>
+</span></button></div></nav></dialog></header><script type="module">var e=document.getElementById(`mobile-nav`);e&&!(`command`in HTMLButtonElement.prototype)&&document.querySelectorAll(`[commandfor="mobile-nav"]`).forEach(t=>{t.addEventListener(`click`,()=>t.getAttribute(`command`)===`close`?e.close():e.showModal())}),e?.addEventListener(`click`,t=>{t.target.closest(`a`)&&e.close()}),matchMedia(`(min-width: 64rem)`).addEventListener(`change`,t=>t.matches&&e?.close());</script><main id="content" class="flex-1"><div class="shell pt-9 sm:pt-12"><a class="link text-sm" href="/port1/zh/work/">项目</a></div><article class="project-article" data-project="michelin-under-the-desk" style="--tint: #eee0ce" data-astro-cid-5mjs4bwp><header class="shell project-heading pt-5 sm:pt-7" data-astro-cid-5mjs4bwp><h1 class="project-title mt-2 max-w-[25ch] text-headline" data-astro-cid-5mjs4bwp="true">《课桌下的米其林》Michelin Under the Desk</h1><p class="project-summary mt-5 max-w-3xl text-lead text-body" data-astro-cid-5mjs4bwp>一款上课偷吃的单人潜行 roguelite：按住空格低头进食，松开抬头看老师，按 S 把食物藏进桌肚。</p><dl class="project-meta mt-7 flex flex-wrap gap-x-8 gap-y-3 border-t border-line pt-4" data-astro-cid-5mjs4bwp><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>角色</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>设计与开发（借助 AI 编程工具实现）</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>时间</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>2026 年 11 月</dd></div><div data-astro-cid-5mjs4bwp><dt class="text-sm text-muted" data-astro-cid-5mjs4bwp>机构</dt><dd class="font-semibold" data-astro-cid-5mjs4bwp>个人项目</dd></div></dl><div class="project-metrics mt-5 max-w-3xl" data-astro-cid-5mjs4bwp><p class="text-sm font-semibold text-ink" data-astro-cid-5mjs4bwp>核心成果</p><ul class="mt-1.5 list-disc space-y-1 pl-5 text-body" data-astro-cid-5mjs4bwp><li data-astro-cid-5mjs4bwp>9 种食物、24 张升级卡、3 种结局</li><li data-astro-cid-5mjs4bwp>镜头约 0.28 秒沿同一路径低头 / 抬头</li><li data-astro-cid-5mjs4bwp>33 秒未剪辑实机录像，带双声道游戏原声</li></ul></div><ul class="project-tags mt-5 flex flex-wrap gap-1.5" aria-label="项目标签" data-astro-cid-5mjs4bwp><li class="chip" data-astro-cid-5mjs4bwp>游戏设计</li><li class="chip" data-astro-cid-5mjs4bwp>潜行</li><li class="chip" data-astro-cid-5mjs4bwp>Roguelite</li><li class="chip" data-astro-cid-5mjs4bwp>声音线索</li><li class="chip" data-astro-cid-5mjs4bwp>第一人称镜头</li><li class="chip" data-astro-cid-5mjs4bwp>Three.js</li><li class="chip" data-astro-cid-5mjs4bwp>Web Audio</li></ul></header><div class="shell project-cover mt-9 sm:mt-12" data-astro-cid-5mjs4bwp><figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp" srcset="/port1/_astro/michelin-look-down.CgOdtXJ7_IzPeA.webp 640w, /port1/_astro/michelin-look-down.CgOdtXJ7_8dl9c.webp 960w, /port1/_astro/michelin-look-down.CgOdtXJ7_lyvAU.webp 1280w, /port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp 1600w" alt="第一人称低头视角：双手在桌洞里握着红色零食包装袋。" sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" fetchpriority="high" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="875" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">低头：双手在桌洞里拿着零食包装袋。</figcaption></figure></div><div class="shell project-video-section mt-9 sm:mt-12" data-astro-cid-5mjs4bwp><figure class="project-video" data-astro-cid-5mjs4bwp><video controls preload="metadata" aria-label="33 秒未剪辑的实机录像，带双声道游戏原声。" class="w-full rounded-card bg-night" data-astro-cid-5mjs4bwp><source src="/port1/media/michelin-gameplay-33s.webm" type="video/webm" data-astro-cid-5mjs4bwp></video><figcaption class="video-caption mt-3 text-sm text-muted" data-astro-cid-5mjs4bwp>33 秒未剪辑实机录像（固定种子，一次回头、一次巡逻）。</figcaption><p class="print-video-note" data-astro-cid-5mjs4bwp>33 秒未剪辑实机演示视频请见本地网页版。</p></figure></div><div class="shell project-body mt-10 sm:mt-16" data-astro-cid-5mjs4bwp><div class="prose case-prose" data-astro-cid-5mjs4bwp><h2 id="概述">概述</h2>
+<p>《课桌下的米其林》（Michelin Under the Desk）是一款单人浏览器 roguelite：上课偷吃零食，看你能在老师回头之前做到什么程度。</p>
+<p>灵感来自一个很小的决定：粉笔摩擦黑板的声音停了，你是把零食收起来，还是再多吃一口？之后这个想法被越推越难以解释：如果要藏的是一锅还在冒烟的火锅呢？</p>
+<h2 id="玩法">玩法</h2>
+<ul>
+<li><strong>按住空格</strong>低头看桌洞并进食，<strong>松开</strong>抬头观察老师。</li>
+<li>低头时<strong>按 S</strong> 把食物收进桌肚。松开空格只是停嘴，食物仍可留在桌面，直到被收起。</li>
+<li>已开火的火锅藏好之后仍然冒烟。</li>
+<li>句号键开关调试面板（默认隐藏）。</li>
+</ul>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp" srcset="/port1/_astro/michelin-look-down.CgOdtXJ7_IzPeA.webp 640w, /port1/_astro/michelin-look-down.CgOdtXJ7_8dl9c.webp 960w, /port1/_astro/michelin-look-down.CgOdtXJ7_lyvAU.webp 1280w, /port1/_astro/michelin-look-down.CgOdtXJ7_x8pFu.webp 1600w" alt="第一人称低头视角：双手在桌洞里握着红色零食包装袋。" sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="875" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">低头：双手在桌洞里拿着零食包装袋。</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/michelin-look-up.BE1nb-b9_Z20q04i.webp" srcset="/port1/_astro/michelin-look-up.BE1nb-b9_2qhLad.webp 640w, /port1/_astro/michelin-look-up.BE1nb-b9_URvMe.webp 960w, /port1/_astro/michelin-look-up.BE1nb-b9_Z18gIqG.webp 1280w, /port1/_astro/michelin-look-up.BE1nb-b9_Z20q04i.webp 1600w" alt="同一座位的抬头视角：老师在黑板前。" sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="875" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">从同一座位抬头：老师在黑板前。</figcaption></figure>
+<figure class="not-prose"><div class="overflow-hidden rounded-card tint-panel p-[4%] sm:p-[6%]"><img src="/port1/_astro/michelin-stashed.DTY9UcXW_Z1CaOQ7.webp" srcset="/port1/_astro/michelin-stashed.DTY9UcXW_1M0Wa6.webp 640w, /port1/_astro/michelin-stashed.DTY9UcXW_hAGM7.webp 960w, /port1/_astro/michelin-stashed.DTY9UcXW_ZK1ydv.webp 1280w, /port1/_astro/michelin-stashed.DTY9UcXW_Z1CaOQ7.webp 1600w" alt="按下 S 之后：食物已收进桌肚，只剩双手和膝盖。" sizes="(min-width: 80rem) 68rem, 90vw" loading="eager" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="1600" height="875" class="w-full shot"></div><figcaption class="mx-auto mt-4 max-w-[44rem] text-[0.95rem] text-muted">按 S 之后：食物已收进桌肚。</figcaption></figure>
+<h2 id="结构">结构</h2>
+<p>游戏有普通教室、图书馆和考场三类场景，每类三节课、每节 90 秒，之后是主任办公室的烹饪终局。共有 9 种食物、24 张升级卡、局外成长和 3 种结局。</p>
+<p>食物的“代价”各不相同：辣条袋好藏，薯片太响，螺蛳粉的气味会飘向邻座，开火的火锅藏好后仍然冒烟。达到一节课的配额后，课间可以从三张升级卡里选一张，让一局更偏向安静地吃、更快地咽下，或把怀疑引向别处。</p>
+<p>局间有一个一本正经的系统，把偷吃当成可以精进的学科；课堂里赚到的积分会解锁卧室里的剧情片段。到了主任办公室，原来会暴露你的香气，反而成了主任走到桌前的原因。</p>
+<h2 id="设计决策">设计决策</h2>
+<h3 id="把看老师变成玩家的决策">把“看老师”变成玩家的决策</h3>
+<p>首轮内部试玩时，我发现自己总在盯着状态灯——它告诉我老师在做什么，侧栏还显示视线、声音、气味和座位位置。我把这两样都藏进了调试面板，换成声音线索：粉笔停笔的碰声、两层脚步（鞋跟落地与摩擦）、图书馆和考场的翻纸声。现在玩家要靠听到的声音决定什么时候停嘴。</p>
+<h3 id="重做低头镜头">重做低头镜头</h3>
+<p>第一版低角度原型是从教室硬切到一个木质桌洞，零食包装袋像悬浮在画面中央：桌洞占满画面，没有手和袖口。后来重做为同一座位的第一人称视角。镜头约 0.28 秒沿同一路径下沉、再沿同一路径返回，同样的袖口、手指和膝盖把动作和玩家连在一起。包装袋先滑出桌洞再转正，按 S 时沿原路收回；大小保持一致，碗和锅保持水平。这一轮还修了两个几何 bug：食物尺寸被二次缩放，以及扁平的包装袋会穿过桌洞后壁。</p>
+<h3 id="音频">音频</h3>
+<p>低头时压低音乐，免得盖住咀嚼和脚步声；图书馆的翻纸声和玩家的包装声分开；粉笔停笔的那一下碰声更脆。</p>
+<h3 id="一个输入边界">一个输入边界</h3>
+<p>按住空格时短按 S，曾经会被下一帧的进食输入取消。现在 S 开始收纳后，继续按着空格仍保持低头，直到收纳完成；要再次拿出食物必须重新按下空格。</p>
+<h2 id="市场调研">市场调研</h2>
+<p>课堂潜行已经有参考：《Worst Class Ever》（开发者自述首日销量超过 10 万份）、itch.io 上的《Classroom Snacks》和《Don’t Get Caught》。我关注的问题是：手里的食物应该怎样改变你的下一步。</p>
+<h2 id="技术">技术</h2>
+<p>TypeScript、Vite、Three.js（WebGL2）和 Web Audio。课堂模拟以固定 60 Hz 步长运行，便于把时序和渲染分开测试。所有可见模型都是程序化体素，并预留了 Tripo GLB 模型的插槽。</p>
+<h2 id="演示">演示</h2>
+<p>33 秒的实机录像带双声道游戏原声。它使用固定种子，安排一次回头和一次巡逻，让两个线索出现在同一条连续镜头里。画面来自游戏渲染器，加了操作字幕，未剪辑。</p>
+<h2 id="局限与下一步">局限与下一步</h2>
+<ul>
+<li>浏览器版是我写好构建需求、借助 AI 编程工具完成的；上面的设计决策是我做的。</li>
+<li>目前还没有外部玩家观察，也没有真人试听。悬而未决的问题是：新玩家能不能听到粉笔停下、把零食收起来，并在被抓时讲清楚是什么暴露了自己。</li>
+<li>已知问题：手机竖屏时“书”按钮会压住食物卡。</li>
+</ul></div></div></article><aside class="shell mt-24 sm:mt-32" aria-labelledby="next-project" data-astro-cid-fe5pqsxl><div class="next-card relative grid overflow-hidden rounded-card border border-line bg-surface md:grid-cols-2" data-astro-cid-fe5pqsxl><div class="flex flex-col justify-between gap-10 p-7 sm:p-10" data-astro-cid-fe5pqsxl><p id="next-project" class="eyebrow" data-astro-cid-fe5pqsxl>下一篇项目</p><div data-astro-cid-fe5pqsxl><p class="font-medium text-muted" data-astro-cid-fe5pqsxl>网易互动娱乐</p><p class="mt-2 text-title" data-astro-cid-fe5pqsxl><a href="/port1/zh/work/identity-v-ai-review-assistant/" class="after:absolute after:inset-0 focus-visible:outline-none" data-astro-cid-fe5pqsxl>《第五人格》AI 新手赛后复盘助手</a></p><span class="btn btn-primary btn-sm mt-8" aria-hidden="true" data-astro-cid-fe5pqsxl>项目<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full icon-nudge size-4" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 12h14" />
+  <path d="m12 5 7 7-7 7" />
+</svg>
+</span></span></div></div><div class="tint-panel relative min-h-64 overflow-hidden" style="--tint: #e5dfe7" data-astro-cid-fe5pqsxl><img src="/port1/_astro/identity-v-cover.DYFBOKaS_2k8drH.webp" srcset="/port1/_astro/identity-v-cover.DYFBOKaS_1VnwFj.webp 640w, /port1/_astro/identity-v-cover.DYFBOKaS_2k8drH.webp 650w" alt sizes="(min-width: 80rem) 50rem, (min-width: 48rem) 65vw, 130vw" data-astro-cid-fe5pqsxl="true" loading="lazy" decoding="async" data-astro-image="constrained" data-astro-image-fit="cover" data-astro-image-pos="center" width="650" height="302" class="next-shot shot absolute top-[14%] left-[10%] w-[130%] max-w-none"></div></div></aside></main><footer class="site-footer mt-20 border-t border-line sm:mt-28"><div class="shell grid gap-6 py-10 sm:grid-cols-[1fr_auto] sm:items-end"><div><a href="/port1/zh/" class="inline-flex items-center gap-2.5 text-lg font-semibold"><img class="size-7" src="/port1/favicon.svg" alt="" width="28" height="28" aria-hidden="true">张桐赫</a><p class="mt-2 text-sm text-muted">UX · 产品经理 · 玩法设计</p></div><div class="flex flex-wrap items-center gap-x-5 gap-y-3 text-sm"><a class="link" href="mailto:zth20021207@126.com">zth20021207@126.com</a><a class="link" href="https://czhang10.itch.io/theeighthcrossroad">itch.io</a><a class="link" href="https://medium.com/@zhangtonghe021207">Medium</a><a class="inline-flex items-center gap-1.5 text-muted hover:text-ink" href="#content">返回顶部<span class="icon shrink-0 place-items-center [&amp;>svg]:size-full size-3.5" aria-hidden="true">
+<svg
+ 
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.75"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m5 12 7-7 7 7" />
+  <path d="M12 19V5" />
+</svg>
+</span></a></div></div></footer></body></html>
